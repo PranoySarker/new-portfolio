@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 50px;
+}
+.orange{
+    color: orange;
+}
+#left-border{
+    border-left: 5px solid tomato;
+    border-radius: 8px;
+}
+.flexible-container{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+#header-text{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+#header-text p{
+    font-size: 20px;
+    text-align: justify;
+}
+.link-button{
+    text-decoration: none;
+    background-color: tomato;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+
+}
+.half-width img{
+    width: 70%;
+    padding: 20px 10px;
+}
+h2{
+    font-size: 40px;
+    display: block;
+    text-align: center;
+}
+
+#mission img{
+    height: 200px;
+    width: 200px;
+}
+#mission-1{
+    width: 33%;
+    margin: 5px 10px;
+    padding: 5px 5px;
+    border-radius: 8px;
+}
+
