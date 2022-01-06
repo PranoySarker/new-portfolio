@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange{
     color: orange;
 }
@@ -14,6 +17,7 @@ h1{
 }
 .flexible-container{
     display: flex;
+    margin-top: 30px;
 }
 .half-width{
     width: 50%;
@@ -22,7 +26,7 @@ h1{
     margin-top: 50px;
     margin-left: 100px;
 }
-#header-text p{
+ p{
     font-size: 20px;
     text-align: justify;
 }
@@ -38,7 +42,7 @@ h1{
     width: 70%;
     padding: 20px 10px;
 }
-h2{
+.center{
     font-size: 40px;
     display: block;
     text-align: center;
@@ -54,4 +58,50 @@ h2{
     padding: 5px 5px;
     border-radius: 8px;
 }
-
+#mission-1 p{
+    font-size: 16px;
+}
+img{
+    width: 70%;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+.text{
+    margin: 50px 10px;
+    text-align: justify;
+}
+.develop-product{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 300px;
+}
+.community{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 150px;
+}
+.contact{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    background-color: linear-gradient(grey,white);
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(14, 12, 12);
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+input[type=submit] {
+    background-color: tomato;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
